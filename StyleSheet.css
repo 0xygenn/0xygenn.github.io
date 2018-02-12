@@ -1,0 +1,278 @@
+﻿header {
+    width: 100%;
+    height: 750px;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(https://static.pexels.com/photos/34676/pexels-photo.jpg) center center;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.icon img {
+    width: 80px;
+    height: 50px;
+    display: block;
+    padding-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding-top:100px;
+    font-size:60px;
+    color:white;
+    opacity:0.95;
+    font-family:'Arial Rounded MT';
+    text-align:center;
+}
+
+.description {
+    padding-top: 0px;
+    font-size: 14px;
+    color: white;
+    opacity: 1;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    position:relative;
+    top:-50px;
+}
+
+.Linked-in {
+    padding-top: 140px;
+    font-size: 24px;
+    color: #cccccc;
+    opacity: 1;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    
+}
+
+.Linked-in span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: #e9ab00 solid 2px;
+    border-radius: 10px;
+    color:#cccccc;
+}
+
+.learn-more {
+    padding-top: 140px;
+    font-size: 14px;
+    color: white;
+    opacity: 1;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.learn-more img {
+    position:relative;
+    top: -15px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #1f2024;
+    position:relative;
+    bottom:-110px;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 0px;
+    font-size: 14px;
+    color: #515151;
+    opacity: 1;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    position:relative;
+}
+
+img[id="1"] {
+    display: inline-block;
+    position: relative;
+    right: 35px;
+}
+
+img[id="2"] {
+    display: inline-block;
+    position: relative;
+    top: -18.65px;
+    right:35px;
+}
+
+img[id="3"] {
+    display: inline-block;
+    position: relative;
+    top: -22.5px;
+    right:8px;
+}
+a:hover {
+    opacity:0.7;
+}
+
+.expertise {
+    height: 700px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+}
+
+.expertise strong {
+    font-size:60px;
+    font-family: 'Arial Rounded MT';
+}
+
+.expertise p {
+    color:#808080
+}
+
+.expertise img {
+    padding-left:80px;
+    padding-right:80px;
+}
+.icons-description {
+    padding-top:50px;
+    display: inline-block;
+    width:500px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #464646;
+    font-family: Calibri;
+    text-align:center;
+}
+
+p[id="4"] strong{
+    color:#515151;
+    font-size:18px;
+}
+
+.clients-belt {
+    width: 100%;
+    position: relative;
+}
+
+.client-unit {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    display: flex;
+}
+
+.client-face {
+    min-width: 300px;
+    text-align: center;
+}
+
+.client-name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.client-title {
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+}
+
+.client-content {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #464646;
+    font-family: Calibri;
+    margin-top: -20px;
+}
+
+.client-face img {
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+
+.clients-logos {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto 100px;
+    display: flex;
+    align-items: center;
+}
+
+.client-logo {
+    background-size: contain;
+    background-position: center;
+}
+
+h3 {
+    text-align: center;
+    color: #e1c184;
+    text-transform:uppercase;
+    font-family: 'Arial Rounded MT';
+}
+
+.work {
+    background: #e9e9e9;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    padding-top: 50px;
+    height:550px;
+}
+
+.work strong {
+    font-size:40px;
+}
+
+.work p[id="a"] {
+    color:#808080;
+}
+
+.Visit {
+    padding-top: 140px;
+    font-size: 20px;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    position: relative;
+    top: -70px;
+    left: -220px;
+}
+
+.Visit span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: #e9ab00 solid 2px;
+    border-radius: 10px;
+    color: #1f2024;
+}
+
+.work p[id="b"] {
+    font-size:14px;
+    padding-top:70px;
+    color:#999;
+    width:300px;
+    position:relative;
+    left:50px;
+}
+
+.work p[id="ball"] {
+    color: #e1c184;
+}
+.work img {
+    position:relative;
+    top:-400px;
+    right:-230px;
+}
+
+.asd {
+    padding-top:70px;
+    height:700px;
+}
